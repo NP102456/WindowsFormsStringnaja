@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsString
 {
-    partial class Form1
+    partial class Form29
     {
         /// <summary>
         /// Required designer variable.
@@ -110,7 +110,7 @@
             this.label4.TabIndex = 8;
             this.label4.Text = "สกุล";
             // 
-            // Form1
+            // Form29
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -124,8 +124,9 @@
             this.Controls.Add(this.txtTitle);
             this.Controls.Add(this.txtLastName);
             this.Controls.Add(this.txtFirstName);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Form29";
+            this.Text = "Form29";
+
             this.ResumeLayout(false);
             this.PerformLayout();
 

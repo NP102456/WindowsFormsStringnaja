@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace WindowsFormsString
 {
-    public partial class Form1 : Form
+    public partial class Form29 : Form
     {
-        public Form1()
+        public Form29()
         {
             InitializeComponent();
         }
@@ -27,19 +27,40 @@ namespace WindowsFormsString
             {
                 x = 6;
                 title = fullname.Substring(0, x);
-               //fullname = fullname.Substring(6).Trim();
+                //fullname = fullname.Substring(6).Trim();
             }
             else if (fullname.StartsWith("นาง") || fullname.StartsWith("นาย"))
             {
                 x = 3;
-                title=fullname.Substring(0, x);
-              //  fullname = fullname.Substring(3).Trim();
+                title = fullname.Substring(0, x);
+                //  fullname = fullname.Substring(3).Trim();
             }
+            else if (fullname.StartsWith("เด็กชาย"))
+            {
+                x = 7;
+                title = fullname.Substring(0, x);
+                //  fullname = fullname.Substring(3).Trim();
+            }
+            else if (fullname.StartsWith("เด็กหญิง"))
+            {
+                x = 8;
+                title = fullname.Substring(0, x);
+                //  fullname = fullname.Substring(3).Trim();
+            }
+            else 
+            {
+                x = fullname.IndexOf(" ");
+                x = fullname.LastIndexOf('.') + 1;
+                title = fullname.Substring(0, x);
+           
+            }
+            
             fullname = fullname.Substring(x).Trim();
             //MessageBox.Show(title + "\n" + fullname);
 
             x= fullname.IndexOf(" ");
 
+            
             firstname = fullname.Substring(0,x).Trim();
 
             lastname = fullname.Substring(x).Trim();
@@ -49,5 +70,6 @@ namespace WindowsFormsString
             txtLastName.Text = lastname;
         }
 
+        
     }
 }
