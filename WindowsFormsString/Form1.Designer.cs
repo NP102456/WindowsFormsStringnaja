@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsString
 {
-    partial class Form29
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -41,46 +41,52 @@
             // 
             // txtFirstName
             // 
-            this.txtFirstName.Location = new System.Drawing.Point(249, 219);
+            this.txtFirstName.Location = new System.Drawing.Point(187, 178);
+            this.txtFirstName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtFirstName.Name = "txtFirstName";
-            this.txtFirstName.Size = new System.Drawing.Size(319, 22);
+            this.txtFirstName.Size = new System.Drawing.Size(240, 20);
             this.txtFirstName.TabIndex = 0;
             // 
             // txtLastName
             // 
-            this.txtLastName.Location = new System.Drawing.Point(249, 263);
+            this.txtLastName.Location = new System.Drawing.Point(187, 214);
+            this.txtLastName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtLastName.Name = "txtLastName";
-            this.txtLastName.Size = new System.Drawing.Size(319, 22);
+            this.txtLastName.Size = new System.Drawing.Size(240, 20);
             this.txtLastName.TabIndex = 1;
             // 
             // txtTitle
             // 
-            this.txtTitle.Location = new System.Drawing.Point(249, 180);
+            this.txtTitle.Location = new System.Drawing.Point(187, 146);
+            this.txtTitle.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtTitle.Name = "txtTitle";
-            this.txtTitle.Size = new System.Drawing.Size(319, 22);
+            this.txtTitle.Size = new System.Drawing.Size(240, 20);
             this.txtTitle.TabIndex = 2;
             // 
             // txtFullname
             // 
-            this.txtFullname.Location = new System.Drawing.Point(249, 86);
+            this.txtFullname.Location = new System.Drawing.Point(187, 70);
+            this.txtFullname.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.txtFullname.Name = "txtFullname";
-            this.txtFullname.Size = new System.Drawing.Size(319, 22);
+            this.txtFullname.Size = new System.Drawing.Size(240, 20);
             this.txtFullname.TabIndex = 3;
             this.txtFullname.Text = "นายหนวด สามหมอ";
             // 
             // label1
             // 
-            this.label1.Location = new System.Drawing.Point(122, 86);
+            this.label1.Location = new System.Drawing.Point(92, 70);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 23);
+            this.label1.Size = new System.Drawing.Size(75, 19);
             this.label1.TabIndex = 4;
             this.label1.Text = "ชื่อ - สกุล";
             // 
             // btnSplitName
             // 
-            this.btnSplitName.Location = new System.Drawing.Point(625, 86);
+            this.btnSplitName.Location = new System.Drawing.Point(469, 70);
+            this.btnSplitName.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.btnSplitName.Name = "btnSplitName";
-            this.btnSplitName.Size = new System.Drawing.Size(81, 199);
+            this.btnSplitName.Size = new System.Drawing.Size(61, 162);
             this.btnSplitName.TabIndex = 5;
             this.btnSplitName.Text = "แยกชื่อสกุล";
             this.btnSplitName.UseVisualStyleBackColor = true;
@@ -88,33 +94,36 @@
             // 
             // label2
             // 
-            this.label2.Location = new System.Drawing.Point(122, 179);
+            this.label2.Location = new System.Drawing.Point(92, 145);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(100, 23);
+            this.label2.Size = new System.Drawing.Size(75, 19);
             this.label2.TabIndex = 6;
             this.label2.Text = "คำนำหน้า";
             // 
             // label3
             // 
-            this.label3.Location = new System.Drawing.Point(122, 222);
+            this.label3.Location = new System.Drawing.Point(92, 180);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 23);
+            this.label3.Size = new System.Drawing.Size(75, 19);
             this.label3.TabIndex = 7;
             this.label3.Text = "ชื่อ ";
             // 
             // label4
             // 
-            this.label4.Location = new System.Drawing.Point(122, 262);
+            this.label4.Location = new System.Drawing.Point(92, 213);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(100, 23);
+            this.label4.Size = new System.Drawing.Size(75, 19);
             this.label4.TabIndex = 8;
             this.label4.Text = "สกุล";
             // 
-            // Form29
+            // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -124,9 +133,9 @@
             this.Controls.Add(this.txtTitle);
             this.Controls.Add(this.txtLastName);
             this.Controls.Add(this.txtFirstName);
-            this.Name = "Form29";
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Name = "Form1";
             this.Text = "Form29";
-
             this.ResumeLayout(false);
             this.PerformLayout();
 
